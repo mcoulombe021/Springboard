@@ -1,0 +1,51 @@
+Model Features:
+	Age
+	Sex
+	BodyPart
+	ProductCode
+	Device_category
+	Device Type
+	Location
+	Stratum
+	PSU
+	Weight
+	Day
+	Month
+	Year
+
+Parameters:
+	Baseline Model:
+		strategy='mean'
+	Logistic Regression:
+		max_iter=10000
+	Random Forest:
+		n_estimators=100
+		random_state=42
+
+HyperParameters:
+	Baseline Model:
+		N/A
+	Logistic Regression:
+		N/A
+	Random Forest:
+		N/A
+
+Performance Metrics:
+	Baseline Model:
+		Accuracy: 0.56
+		Precision: 0.56
+		Recall: 1.0
+		F1: 0.718
+		Balanced Accuracy: 0.5
+	Logistic Regression:
+		Accuracy: 0.749
+		Precision: 0.725
+		Recall: 0.889
+		F1: 0.799
+		Balanced Accuracy: 0.729
+	Random Forest:
+		Accuracy: 0.74
+		Precision: 0.719
+		Recall: 0.882
+		F1: 0.792
+		Balanced Accuracy: 0.721
