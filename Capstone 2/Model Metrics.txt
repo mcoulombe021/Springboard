@@ -12,6 +12,7 @@ Model Features:
 	Day
 	Month
 	Year
+	Day of Week
 
 Parameters:
 	Baseline Model:
