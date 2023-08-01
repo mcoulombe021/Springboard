@@ -14,22 +14,15 @@ Model Features:
 	Year
 	Day of Week
 
-Parameters:
+Parameters/HyperParameters:
 	Baseline Model:
 		strategy='mean'
 	Logistic Regression:
 		max_iter=10000
+		C=100
 	Random Forest:
-		n_estimators=100
+		n_estimators=150
 		random_state=42
-
-HyperParameters:
-	Baseline Model:
-		N/A
-	Logistic Regression:
-		N/A
-	Random Forest:
-		N/A
 
 Performance Metrics:
 	Baseline Model:
@@ -39,14 +32,14 @@ Performance Metrics:
 		F1: 0.718
 		Balanced Accuracy: 0.5
 	Logistic Regression:
-		Accuracy: 0.749
-		Precision: 0.725
-		Recall: 0.889
-		F1: 0.799
-		Balanced Accuracy: 0.729
+		Accuracy: 0.754
+		Precision: 0.729
+		Recall: 0.892
+		F1: 0.802
+		Balanced Accuracy: 0.735
 	Random Forest:
-		Accuracy: 0.74
-		Precision: 0.719
-		Recall: 0.882
-		F1: 0.792
-		Balanced Accuracy: 0.721
+		Accuracy: 0.749
+		Precision: 0.727
+		Recall: 0.885
+		F1: 0.798
+		Balanced Accuracy: 0.731

@@ -1,0 +1,1 @@
+This project analyzes injuries at a theme park from the NEISS hospital data from 2013-2017 from https://ridesdatabase.org/saferparks/data/. There are 4 main parts, Data Wrangling, Exploratory Data Analysis, Preprocessing, and Modeling. Also included is a Report to summarize the findings as well as a presentation of the findings. 
