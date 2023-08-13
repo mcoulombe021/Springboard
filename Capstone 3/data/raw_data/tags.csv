@@ -1,0 +1,31 @@
+category,tag_name,title,description
+language,profanity,Profanity,
+language,blasphemy,Blasphemy,
+language,sexual_reference,Sexual References and Innuendos,"Any references or jokes about sex, flirting, innuendos, etc. "
+language,childish_language,Childish Language,"Generally, things you would not want your 3-year-old to repeat. "
+language,racial_slurs,Racial Slurs and Bigoted Language,"Racist, sexist, and/or discriminatory language in any form. "
+violence,non_graphic,Non-Graphic,Violence without blood.
+violence,graphic,Graphic,Violence with blood or breaking bones.
+violence,disturbing_images,Disturbing Images,"Dead bodies, severed body parts, or object protruding from body"
+violence,gore,Gore,"Gore, bloody guts, bloody severed body parts."
+violence,violence_implied,Implied Violence,The violence is not seen on screen. Graphic descriptions or details of a violent act.
+immodesty,immodesty,Immodesty,"Bikinis, focused chest shots, or bare midriffs for women. Formfitting underwear, breifs, or speedos for men."
+immodesty,nudity_without_sex,Nudity (without sex),"Skinny dipping, bathing, flashing, mooning, etc."
+immodesty,nudity_art,Statues and Paintings,"Art, statues, mannequins, drawings, stained glass, reliefs, etc. "
+immodesty,nudity_implied,Implied Nudity,Not wearing clothing but private areas are hidden.
+sexual,sexually_suggestive,Sexually Suggestive,Behaviors with action or sexual undertones enticing or implying sexual intent.
+sexual,kissing_normal,Normal Kissing,Lip-to-lip kissing.
+sexual,kissing_passion,Passionate Kissing,"French kissing, making out, or sensually kissing parts of the body."
+sexual,sex_implied,Implied Sex,"When sex happens off-screen, or immediately before/after "
+sexual,sexual_assault,Sexual Assault,"Rape, attempted rape, bestiality, etc. References to rape or molestation."
+sexual,sex_without_nudity,Sex without Nudity,"Sex with a discreet camera angle, under bedsheets, etc. "
+sexual,sex_with_nudity,Sex with Nudity,Sex shown with any body part that would normally be covered by a bikini or Speedo. 
+drugs,drugs_legal,Legal Use,Legal drinking/smoking
+drugs,drugs_implied,Implied Use,"All discussion, handling, making, and visibility of illegal drugs and underage drinking/smoking"
+drugs,drugs_illegal,Illegal Use,"Consumption of illegal drugs and underage drinking/smoking, including in the background."
+other,bodily_functions,Bodily Functions/Jokes,Gross bodily fluids/functions such as a person passing gas. Nosebleeds and such that are not from violence. Potty talk.
+other,objectionable,Objectionable/Disturbing/Scary,"Violent seizures, condoms, tattoo needles etc."
+other,vulgar_gestures,Vulgar Gestures,"Crotch-grabbing, gestures for profanities, mimicking any sex act, etc."
+other,medical_graphic,Medical - Graphic,"Medical procedures where blood, organs, or anything gross is shown. "
+other,medical_procedures,Medical - Procedures,Vaccines and medical shots when the needle penetrates the skin. Doctor procedures that do not include blood. 
+other,life_events,Life Events,"Death by natural/non-violent causes. Birth, labor, and contractions if anything is seen or when they start giving birth. "
