@@ -1,0 +1,310 @@
+Parameters/HyperParameters:
+	Random Forest:
+		n_estimators=100
+		max_depth=40
+		random_state=42
+	SVM:
+		kernel='linear'
+		C=0.1
+	Logistic Regression:
+		C=0.1
+		max_iter=1000
+		random_state=42
+	Deep Learning:
+		input_shape = (232,)
+		num_classes = 9
+		1st layer:
+			neurons=128
+			activation='relu'
+			dropout=0.5
+		Output layer: 
+			neurons = 9 (num_classes)
+			activation= 'softmax'
+
+Performance Metrics:
+	Random Forest:
+		Accuracy: 0.71
+		Confusion Matrix:
+[[  1   0   1   0   0   0   0   0   0]
+ [ 10  23   5   0   0   0   0   0   0]
+ [ 15   1  82   5   0   0   0   0   0]
+ [ 11   0   4 137   0   0   0   0   0]
+ [  3   0   6   2   0   0   0   0   0]
+ [  0   1   0   0   0   0   0   0   0]
+ [  3   0   1  22   0   0   0   0   0]
+ [  4   2   0   0   0   0   0   0   0]
+ [  0   2   0   0   0   0   0   0   0]]
+ 
+	SVM:
+		Accuracy: 0.63	
+		Confusion Matrix:
+[[  1   1   0   0   0   0   0   0   0]
+ [  6  26   4   1   0   0   1   0   0]
+ [ 22   4  68   7   0   0   1   0   1]
+ [ 18   0  17 114   0   0   3   0   0]
+ [  7   0   2   0   2   0   0   0   0]
+ [  1   0   0   0   0   0   0   0   0]
+ [  7   0   1  16   0   0   2   0   0]
+ [  3   1   0   0   0   1   0   1   0]
+ [  0   2   0   0   0   0   0   0   0]]
+ 
+	Logistic Regression:
+		Accuracy: 0.63
+		Confusion Matrix:
+[[  0   1   0   0   0   1   0   0   0]
+ [  7  25   5   0   0   0   1   0   0]
+ [ 20   3  67  11   1   0   0   0   1]
+ [ 18   0  14 116   1   0   3   0   0]
+ [  6   0   1   0   4   0   0   0   0]
+ [  1   0   0   0   0   0   0   0   0]
+ [  9   0   2  14   0   0   1   0   0]
+ [  3   1   0   0   0   1   0   1   0]
+ [  0   2   0   0   0   0   0   0   0]]
+ 
+	Deep Learning:
+		Accuracy: 0.74
+		Confusion Matrix:
+[[  0   2   0   0   0   0   0   0   0]
+ [  0  28   7   2   0   0   0   1   0]
+ [  0   0  77  20   4   0   2   0   0]
+ [  0   0  16 130   0   0   6   0   0]
+ [  0   0   2   2   6   0   1   0   0]
+ [  0   1   0   0   0   0   0   0   0]
+ [  0   0   0  18   0   0   8   0   0]
+ [  0   2   1   0   0   1   0   2   0]
+ [  0   2   0   0   0   0   0   0   0]]
+
+Model Features:                                                                            
+ year                                          
+ mpaa_rating                                   
+ duration_sec                                                                       
+ number_of_studios                             
+ duration_sec_drugs_drugs_illegal              
+ duration_sec_drugs_drugs_implied              
+ duration_sec_drugs_drugs_legal                
+ duration_sec_immodesty_immodesty              
+ duration_sec_immodesty_nudity_art             
+ duration_sec_immodesty_nudity_implied         
+ duration_sec_immodesty_nudity_without_sex     
+ duration_sec_language_blasphemy               
+ duration_sec_language_childish_language       
+ duration_sec_language_profanity               
+ duration_sec_language_racial_slurs            
+ duration_sec_language_sexual_reference        
+ duration_sec_other_bodily_functions           
+ duration_sec_other_life_events                
+ duration_sec_other_medical_graphic            
+ duration_sec_other_medical_procedures         
+ duration_sec_other_objectionable              
+ duration_sec_other_vulgar_gestures            
+ duration_sec_sexual_kissing_normal            
+ duration_sec_sexual_kissing_passion           
+ duration_sec_sexual_sex_implied               
+ duration_sec_sexual_sex_with_nudity           
+ duration_sec_sexual_sex_without_nudity        
+ duration_sec_sexual_sexual_assault            
+ duration_sec_sexual_sexually_suggestive       
+ duration_sec_violence_disturbing_images       
+ duration_sec_violence_gore                    
+ duration_sec_violence_graphic                 
+ duration_sec_violence_non_graphic             
+ duration_sec_violence_violence_implied        
+ occurrence_cnt_drugs_drugs_illegal            
+ occurrence_cnt_drugs_drugs_implied            
+ occurrence_cnt_drugs_drugs_legal              
+ occurrence_cnt_immodesty_immodesty            
+ occurrence_cnt_immodesty_nudity_art           
+ occurrence_cnt_immodesty_nudity_implied       
+ occurrence_cnt_immodesty_nudity_without_sex   
+ occurrence_cnt_language_blasphemy             
+ occurrence_cnt_language_childish_language     
+ occurrence_cnt_language_profanity             
+ occurrence_cnt_language_racial_slurs          
+ occurrence_cnt_language_sexual_reference      
+ occurrence_cnt_other_bodily_functions         
+ occurrence_cnt_other_life_events              
+ occurrence_cnt_other_medical_graphic          
+ occurrence_cnt_other_medical_procedures       
+ occurrence_cnt_other_objectionable            
+ occurrence_cnt_other_vulgar_gestures          
+ occurrence_cnt_sexual_kissing_normal          
+ occurrence_cnt_sexual_kissing_passion         
+ occurrence_cnt_sexual_sex_implied             
+ occurrence_cnt_sexual_sex_with_nudity         
+ occurrence_cnt_sexual_sex_without_nudity      
+ occurrence_cnt_sexual_sexual_assault          
+ occurrence_cnt_sexual_sexually_suggestive     
+ occurrence_cnt_violence_disturbing_images     
+ occurrence_cnt_violence_gore                  
+ occurrence_cnt_violence_graphic               
+ occurrence_cnt_violence_non_graphic           
+ occurrence_cnt_violence_violence_implied      
+ Studio_21 Laps Entertainment                  
+ Studio_30WEST                                 
+ Studio_87Eleven Productions                   
+ Studio_87North Productions                    
+ Studio_A24                                    
+ Studio_AGBO                                   
+ Studio_Addictive Pictures                     
+ Studio_Aloe Entertainment                     
+ Studio_Amazon Studios                         
+ Studio_Amblin Entertainment                   
+ Studio_Anchor Bay                             
+ Studio_Angel Studios                          
+ Studio_Annapurna Pictures                     
+ Studio_Anonymous Content                      
+ Studio_Apatow Productions                     
+ Studio_Apple Studios                          
+ Studio_Armory Films                           
+ Studio_Automatik Entertainment                
+ Studio_Awesomeness Films                      
+ Studio_BBC                                    
+ Studio_Bad Robot                              
+ Studio_Bay Films                              
+ Studio_Big Indie Pictures                     
+ Studio_Black Bear Pictures                    
+ Studio_Black Label Media                      
+ Studio_Blueprint Pictures                     
+ Studio_Blumhouse Productions                  
+ Studio_Blumhouse Television                   
+ Studio_Bold Films                             
+ Studio_Brad Krevoy Television                 
+ Studio_Broken Road Productions                
+ Studio_Bron Studios                           
+ Studio_CBS Films                              
+ Studio_COTA Films                             
+ Studio_Campbell Grobman Films                 
+ Studio_Canal+                                 
+ Studio_Carnival Films                         
+ Studio_Chernin Entertainment                  
+ Studio_Closest to the Hole Productions        
+ Studio_Columbia                               
+ Studio_Comedy Dynamics                        
+ Studio_Concordia Studio                       
+ Studio_Creative Wealth Media Finance          
+ Studio_Cross Creek Pictures                   
+ Studio_Dentsu                                 
+ Studio_Denver and Delilah Productions         
+ Studio_Di Bonaventura Pictures                
+ Studio_DreamWorks                             
+ Studio_ESX Entertainment                      
+ Studio_Echo Films                             
+ Studio_Emmett Furla Oasis Films               
+ Studio_Endeavor Content                       
+ Studio_Endgame Entertainment                  
+ Studio_Entertainment One                      
+ Studio_Escape Artists                         
+ Studio_Film4 Productions                      
+ Studio_FilmNation Entertainment               
+ Studio_Focus                                  
+ Studio_Fuqua Films                            
+ Studio_G-BASE                                 
+ Studio_Gary Sanchez Productions               
+ Studio_Ghost House Pictures                   
+ Studio_Global Road Entertainment              
+ Studio_Good Universe                          
+ Studio_Hallmark                               
+ Studio_Happy Madison Productions              
+ Studio_HartBeat Productions                   
+ Studio_Head Gear Films                        
+ Studio_Heyday Films                           
+ Studio_Highland Film Group                    
+ Studio_IFC                                    
+ Studio_IM Global                              
+ Studio_Illumination Entertainment             
+ Studio_Imagine Entertainment                  
+ Studio_Ingenious Media                        
+ Studio_Inoxy Films                            
+ Studio_Jerry Bruckheimer Films                
+ Studio_June Pictures                          
+ Studio_Killer Films                           
+ Studio_Komixx Entertainment                   
+ Studio_Kreo Films FZ                          
+ Studio_LD Entertainment                       
+ Studio_Lakeshore Entertainment                
+ Studio_Legendary Entertainment                
+ Studio_Likely Story                           
+ Studio_Lions Gate                             
+ Studio_MGM                                    
+ Studio_MadRiver Pictures                      
+ Studio_Magnolia Pictures                      
+ Studio_Mandalay Pictures                      
+ Studio_Marc Platt Productions                 
+ Studio_Material Pictures                      
+ Studio_Maximum Effort                         
+ Studio_Mazur / Kaplan Company                 
+ Studio_Metro-Goldwyn-Mayer                    
+ Studio_Metrol Technology                      
+ Studio_Millennium Films                       
+ Studio_Misher Films                           
+ Studio_Monkeypaw Productions                  
+ Studio_Motion Picture Corporation of America  
+ Studio_Movistar+                              
+ Studio_Netflix                                
+ Studio_New Republic Pictures                  
+ Studio_Nine Stories Productions               
+ Studio_Nolita Cinema                          
+ Studio_Nostromo Pictures                      
+ Studio_Nu Boyana Film Studios                 
+ Studio_Number 9 Films                         
+ Studio_Nuyorican Productions                  
+ Studio_Original Film                          
+ Studio_Orion Pictures                         
+ Studio_Other                                  
+ Studio_Overbrook Entertainment                
+ Studio_PalmStar Media                         
+ Studio_Paramount                              
+ Studio_Participant                            
+ Studio_Parts and Labor                        
+ Studio_Perfect World Pictures                 
+ Studio_Phantom Four                           
+ Studio_Plan B Entertainment                   
+ Studio_Platinum Dunes                         
+ Studio_Playtone                               
+ Studio_Point Grey Pictures                    
+ Studio_Potboiler Productions                  
+ Studio_Protozoa Pictures                      
+ Studio_QC Entertainment                       
+ Studio_Radar Pictures                         
+ Studio_Reliance Entertainment                 
+ Studio_Riverstone Pictures                    
+ Studio_Rough House Pictures                   
+ Studio_STX Entertainment                      
+ Studio_STX Films                              
+ Studio_Saban Films                            
+ Studio_Screen Arcade                          
+ Studio_Screen Gems                            
+ Studio_ShivHans Pictures                      
+ Studio_Shoebox Films                          
+ Studio_Sidney Kimmel Entertainment            
+ Studio_Skydance                               
+ Studio_Smoke House Pictures                   
+ Studio_Sony                                   
+ Studio_Sprockefeller Pictures                 
+ Studio_Stage 6 Films                          
+ Studio_Stillking Films                        
+ Studio_Studio 8                               
+ Studio_Studio Babelsberg                      
+ Studio_Summit Entertainment                   
+ Studio_Temple Hill Entertainment              
+ Studio_Tencent Pictures                       
+ Studio_The Fyzz                               
+ Studio_The Hideaway Entertainment             
+ Studio_The Solution                           
+ Studio_Thunder Road Pictures                  
+ Studio_TriStar Pictures                       
+ Studio_Tyler Perry Studios                    
+ Studio_Téléfilm Canada                        
+ Studio_Umedia                                 
+ Studio_United Artists                         
+ Studio_Universal Pictures                     
+ Studio_Vertical Entertainment                 
+ Studio_Vinson Films                           
+ Studio_Voltage Pictures                       
+ Studio_Walden Media                           
+ Studio_Weinstein Company                      
+ Studio_Will Packer Productions                
+ Studio_Wonderland Sound and Vision            
+ Studio_Working Title Films                    
+ Studio_XYZ Films                              
+ Studio_Zero Gravity Management                
